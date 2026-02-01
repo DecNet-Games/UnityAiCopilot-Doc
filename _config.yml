@@ -1,8 +1,16 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: Unity AI CoPilot
+description: The Autonomous AI Agent for Unity that codes, fixes, and creates for you.
+remote_theme: just-the-docs/just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://decnet-games.github.io
+baseurl: /UnityAiCopilot-Doc
+
+color_scheme: dark
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  GitHub Repository: https://github.com/DecNet-Games/UnityAICoPilot
+
+enable_search_in_sidebar: true
+
+# Footer content
+footer_content: "© 2026 DecNet Games. All rights reserved."
