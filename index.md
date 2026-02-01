@@ -48,5 +48,5 @@ You set the laws. The **Rule Engine** ensures the AI follows your coding standar
 2.  **Launch**: Go to `Tools > Unity AI CoPilot > Welcome`.
 3.  **Setup Keys**: Click "Setup API Keys" and enter your credentials.
 
-[Continue to Provider Setup](./docs/providers/setup.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View UI Reference](./docs/ui/overview.html){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Continue to Provider Setup](./docs/providers/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View UI Reference](./docs/ui/){: .btn .fs-5 .mb-4 .mb-md-0 }
