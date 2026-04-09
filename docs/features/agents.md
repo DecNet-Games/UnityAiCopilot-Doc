@@ -6,42 +6,32 @@ nav_order: 1
 permalink: /docs/features/agents
 ---
 
-# Specialized Agents
+# 🤖 Specialized Agents
 
-Unity AI CoPilot isn't just one bot. It's a team of specialized agents, each fine-tuned for a specific task. To switch agents, navigate to **Tool Settings > Specialized Agents**.
-
----
-
-## 🏗️ Architect Agent
-**Role:** High-level system design and file structure planning.
-*   **Best For:** "Plan a new Inventory System", "Create a folder structure for a racing game".
-*   **Behavior:** Focuses on pure C# interfaces, abstract classes, and project hierarchy. Does not write implementation details.
-
-## 🛠️ AutoFix Agent
-**Role:** The bug hunter.
-*   **Best For:** Fixing console errors instantly.
-*   **Behavior:** When you click "Fix Issue" in the Console, search for the error, analyze the stack trace, and apply a patch.
-*   **Capabilities:**
-    *   Reads the compile error.
-    *   Reads the relevant script file.
-    *   Proposes a `diff` to fix the issue.
-
-## 🛡️ Code Safety Agent
-**Role:** Quality Assurance and Security.
-*   **Best For:** "Review this script for bugs", "Optimize this loop".
-*   **Behavior:** strictly analyzes code for:
-    *   Infinite loops.
-    *   Memory leaks.
-    *   Deprecated Unity APIs.
-    *   Inefficient `GetComponent` or `FindObjectOfType` calls in `Update`.
-
-## 📜 Scene Agent
-**Role:** Hierarchy and GameObject manipulation.
-*   **Best For:** "Create a cube and place it at (0,0,0)", "Find all enemies and make them red".
-*   **Behavior:** Generates **Editor Scripts** that execute immediately to modify the Scene. It does NOT generate runtime scripts for this agent.
+Brody AI operates through multiple "Agents," each with a specific personality and prompt set. This specialization ensures that Brody doesn't get confused between design and debugging.
 
 ---
 
-## Configuring Agents
-You can assign different LLMs to different agents.
-*   **Example:** Use expensive **GPT-4o** for the *Architect* (needs high logic), but cheap **GPT-4o-mini** for the *AutoFixer* (needs speed).
+## 🏗️ The Architect
+Built for high-level structure. The Architect focuses on SOLID principles and clean code.
+*   **Skillset**: Interface design, design patterns (Singleton, Observer), file organization.
+*   **Tone**: Strict, technical, and structural.
+
+## 🛠️ The Fixer (Auto-Fix)
+The most used agent. It focuses on the current state of your project.
+*   **Skillset**: Analyzing error logs, finding missing references, solving compilation issues.
+*   **Hook**: Deeply integrated with the Unity Console.
+
+## ⚔️ The Security Guard
+Analyzes your scripts for potential crashes or bad practices before you even hit Play.
+*   **Skillset**: Detecting `GetComponent` in `Update`, infinite loops, and heavy GC allocations.
+
+---
+
+## 🎨 Changing Agent Models
+You can mix and match.
+1. Go to **Settings > Specialized Agents**.
+2. Assign **Claude 3.5 Sonnet** to the *Architect* (Best for logic).
+3. Assign **GPT-4o Mini** to the *Fixer* (Fast and cheap).
+
+![Agent Selection](https://via.placeholder.com/600x350/1a1a1a/ffffff?text=Agent+Selection+Dropdown+Screenshot)

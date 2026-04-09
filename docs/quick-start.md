@@ -1,46 +1,38 @@
 ---
 layout: default
 title: Quick Start
-nav_order: 3
-parent: Docs
+nav_order: 1
+parent: Getting Started
+permalink: /docs/quick-start
 ---
 
-# Quick Start Guide
-{: .no_toc }
+# ⚡ Quick Start (The 2-Minute Setup)
 
-Get your AI CoPilot up and running in 2 minutes.
+Follow this rapid guide to get Brody AI talking to your code.
+
+## 1. Import
+Import the `BrodyAI.unitypackage` from the Asset Store.
+
+## 2. Open Settings
+Navigate to **Tools > Brody AI > Tool Settings**.
+
+## 3. Configure the "Brain"
+*   **The Pro Way**: Use **OpenRouter**.
+    1.  Get a key from [OpenRouter.ai](https://openrouter.ai/).
+    2.  Paste it into the **Global Credential Vault** in Brody Settings.
+    3.  Select `arcee-ai/trinity-mini:free` (it's fast and FREE) from the Model ID dropdown.
+
+## 4. Test
+Click **"Test Global Connection"**. If it says **"Agent Online"**, you're done!
 
 ---
 
-## 1. Auto-Launch Dashboard
-Upon import, the **Welcome Dashboard** should open automatically.
-If you closed it, reopen it via:
-*   **Tools > Unity AI CoPilot > Welcome 👋**
-*   *Or:* **Tools > Unity AI CoPilot > Tool Settings**
+## 📸 5. First Prompt
+Open the Brody AI Chat window and type:
+> "Brody, create a simple script that counts down from 10 and then prints 'Blast off!' to the console."
 
-## 2. Configure Your Brain (API Setup)
-1.  On the Welcome Screen, click **"⚙️ Setup API Keys"**.
-2.  This opens the **Tool Settings Window**.
-3.  **Global Fallback**: Enter a key in the "Global Credential Vault" at the bottom to use one provider for everything.
+**Click "Execute"** and watch Brody work!
 
-> [!TIP]
-> **Use OpenRouter for Free Access**: 
-> 1. Get a key from [OpenRouter.ai](https://openrouter.ai/).
-> 2. Set "Default Agent" to **OpenRouter**.
-> 3. Paste your key.
-> 4. Select a free model like `arcee-ai/trinity-mini:free`.
+---
 
-## 3. Select Your Model
-*   In **Tool Settings**, choose your preferred model from the dropdown (e.g., `gpt-4o`, `claude-3-5-sonnet`).
-*   **Custom Models**: select **"Custom"** and type the model ID manually.
-
-## 4. Verify Connection
-1.  Click the **"Test Global Connection"** button in Settings.
-2.  If you see "Agent is Online!", you are ready to code.
-
-## 5. Your First Action
-1.  Open **Tools > Unity AI CoPilot > Chat**.
-2.  Type: *"Create a rotating cube script"*.
-3.  Watch the agent generate the code and ask if you want to create the file.
-
-[Explore Features](./features/index.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Check Features Deep Dive](../features/index.html){: .btn .btn-outline }

@@ -1,52 +1,57 @@
 ---
-layout: default
-title: Getting Started
+layout: home
+title: Home
 nav_order: 1
-permalink: /
 ---
 
-# Getting Started with Unity AI CoPilot
-{: .fs-9 }
+# Brody AI
+## Your Agentic Developing Homie 🤖
 
-**Unity AI CoPilot** is a professional, paid asset that brings autonomous agents into your Editor.
-{: .fs-6 .fw-300 }
+**Stop struggling with manual code fixes and context-switching. Brody AI is a senior-level autonomous agent that lives inside your Unity Editor.**
 
----
+Designed for professional developers who value their time, Brody AI doesn't just "chat"—it understands your entire codebase, analyzes project dependencies, and performs tasks autonomously.
 
-## 🚀 Overview
-This is **NOT** just a chat window. This is an agentic workflow system.
-It connects Unity to powerful LLMs (GPT-4, Claude, Gemini, DeepSeek) to automate:
-1.  **Coding**: Writing complex scripts from scratch.
-2.  **Fixing**: Auto-detecting and fixing console errors.
-3.  **Architecture**: Scanning and visualizing project dependencies.
-4.  **Optimization**: Reducing garbage collection and optimizing draw calls.
-
-## 🔑 Key Concepts
-Before you start, understand these three pillars:
-
-### 1. The Brain (Providers)
-You choose the brain. We support all major providers via **Tool Settings**.
-*   **Best for Logic**: GPT-4o or Claude 3.5 Sonnet.
-*   **Best for Speed**: Gemini 1.5 Pro.
-*   **Best for Privacy**: Ollama (Local).
-*   **Best for Cost**: OpenRouter / DeepSeek.
-
-### 2. The Agents
-You don't just talk to one bot. You assign tasks to specialists:
-*   `Architect`: Handles project structure and graphs.
-*   `CodeSafetyAnalyzer`: Protech's your project from destructive code.
-*   `AutoFixGenerator`: Lives in your console to fix errors.
-
-### 3. The Rules
-You set the laws. The **Rule Engine** ensures the AI follows your coding standards (e.g., "Always use Namespaces").
+[Purchase on Asset Store](./docs/installation.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Explore Features](./docs/features/index.html){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## 📥 Installation
+## ⚡ The Brody Advantage
 
-1.  **Import**: Drag the `UnityAICoPilot` folder into `Assets/`.
-2.  **Launch**: Go to `Tools > Unity AI CoPilot > Welcome`.
-3.  **Setup Keys**: Click "Setup API Keys" and enter your credentials.
+Brody is built to solve the "Context Gap" that web-based AI tools struggle with. Because he lives in your project, he knows your scripts, your tags, and your architecture.
 
-[Continue to Provider Setup](./docs/providers/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View UI Reference](./docs/ui/){: .btn .fs-5 .mb-4 .mb-md-0 }
+### 🚀 High-Impact Workflow
+- **Senior Architect**: Plan complex systems from scratch.
+- **Auto-Repair Man**: One-click fixes for Console errors.
+- **Safety First**: Real-time scan for infinite loops and memory leaks.
+- **True Autonomy**: Let Brody generate whole systems while you focus on design.
+
+---
+
+## 📸 Media Preview
+> [!TIP]
+> **REPLACE ME**: To add your own screenshots, replace the URL in the brackets below.
+> Example: `![Welcome Dashboard](https://your-image-link.com/photo.png)`
+
+![Brody Dashboard Placeholder](https://via.placeholder.com/800x450/1a1a1a/ffffff?text=Brody+AI+Main+Dashboard+Screenshot)
+*The centralized command center for all your AI agents.*
+
+---
+
+## 🛠️ Key Modules
+
+| Module | Purpose |
+|:---|:---|
+| **Architect Agent** | Generates interfaces, abstract classes, and system logic. |
+| **AutoFixer** | Analyzes stack traces and applies source-code patches instantly. |
+| **Codebase Indexer** | Scans your whole project so Brody "knows" your existing scripts. |
+| **Universal Providers** | Support for GPT-4o, Claude 3.5, Gemini 1.5, and Local Ollama. |
+
+---
+
+## 🚀 Quick Links
+
+*   [**Installation**](./docs/installation.html) - Step-by-step setup guide.
+*   [**Getting Started**](./docs/getting-started.html) - Your first 5 minutes with Brody.
+*   [**Advanced Config**](./docs/advance/index.html) - Deep customize Brody's personality.
+*   [**FAQ**](./docs/faq.html) - Common questions and support.
