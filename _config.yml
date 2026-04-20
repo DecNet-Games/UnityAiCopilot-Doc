@@ -13,3 +13,6 @@ heading_anchors: true
 
 # Footer content
 footer_content: "Copyright &copy; 2026 DecNet Games. Premium Unity Assets."
+
+plugins:
+  - jekyll-remote-theme
